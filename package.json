@@ -10,10 +10,10 @@
   ],
   "exports": {
     ".": {
-      "require": "./dist/my-plugin.cjs.js",
-      "browser": "./dist/my-plugin.esm-browser.js",
-      "import": "./dist/my-plugin.esm-bundler.js",
-      "module": "./dist/my-plugin.esm-bundler.js"
+      "require": "./dist/apollo-vue-devtool.cjs.js",
+      "browser": "./dist/apollo-vue-devtool.esm-browser.js",
+      "import": "./dist/apollo-vue-devtool.esm-bundler.js",
+      "module": "./dist/apollo-vue-devtool.esm-bundler.js"
     },
     "./package.json": "./package.json"
   },
