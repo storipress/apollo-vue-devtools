@@ -20,6 +20,7 @@
   "sideEffects": false,
   "scripts": {
     "dev": "tsc --watch -d",
+    "test": "vitest",
     "build:esbuild": "rimraf dist && tsc -d --emitDeclarationOnly && node ./esbuild.js",
     "build:rollup": "rimraf dist && rollup -c rollup.config.js"
   },
@@ -38,8 +39,11 @@
     "@rollup/plugin-replace": "^4.0.0",
     "@types/node": "^17.0.21",
     "@vue/compiler-sfc": "^3.2.31",
+    "cross-fetch": "^3.1.5",
     "esbuild": "^0.14.23",
     "esbuild-plugin-vue": "^0.2.4",
+    "graphql": "^16.3.0",
+    "msw": "^0.38.1",
     "pascalcase": "^1.0.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.68.0",
@@ -47,6 +51,8 @@
     "rollup-plugin-typescript2": "^0.31.2",
     "rollup-plugin-vue": "^6.0.0",
     "typescript": "^4.5.5",
+    "vite": "^2.8.4",
+    "vitest": "^0.5.7",
     "vue": "^3.2.31"
   },
   "packageManager": "yarn@3.2.0"
