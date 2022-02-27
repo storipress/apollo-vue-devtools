@@ -1,5 +1,6 @@
 {
   "name": "@storipress/apollo-vue-devtool",
+  "version": "0.0.1",
   "main": "dist/apollo-vue-devtool.cjs.js",
   "module": "dist/apollo-vue-devtool.esm-bundler.js",
   "types": "dist/index.d.ts",
