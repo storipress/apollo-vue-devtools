@@ -12,9 +12,7 @@ const handlers = [
   graphql.query('Foo', (req, res, ctx) => {
     return res(
       ctx.data({
-        data: {
-          foo: 'bar',
-        },
+        foo: 'bar',
       })
     )
   }),
@@ -51,9 +49,7 @@ test('track subscriber should be called', async () => {
     [
       {
         "data": {
-          "data": {
-            "foo": "bar",
-          },
+          "foo": "bar",
         },
       },
     ]
