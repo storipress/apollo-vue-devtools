@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@storipress/apollo-vue-devtool": ["../src/index.ts"]
+    }
+  }
+}
