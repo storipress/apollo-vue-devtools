@@ -1,6 +1,5 @@
-import { ApolloLink, FetchResult, NextLink, Operation } from '@apollo/client/core'
+import { ApolloLink, FetchResult, NextLink, Operation, Observable } from '@apollo/client/core'
 import { devtools } from './devtools'
-import { Observable } from 'zen-observable-ts'
 
 export class DebugLink extends ApolloLink {
   override request(operation: Operation, forward: NextLink): Observable<FetchResult> {

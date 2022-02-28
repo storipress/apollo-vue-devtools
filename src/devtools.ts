@@ -1,7 +1,6 @@
 import { setupDevtoolsPlugin, DevtoolsPluginApi } from '@vue/devtools-api'
-import { Operation, FetchResult, DocumentNode } from '@apollo/client/core'
+import { Operation, FetchResult, DocumentNode, Observer } from '@apollo/client/core'
 import { getMainDefinition } from '@apollo/client/utilities'
-import { Observer } from 'zen-observable-ts'
 import { App } from 'vue'
 
 const timelineLayerId = 'apollo-vue-devtool'
