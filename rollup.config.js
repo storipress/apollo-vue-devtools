@@ -1,6 +1,5 @@
-import path from 'path'
 import vuePlugin from 'rollup-plugin-vue'
-import ts from 'rollup-plugin-typescript2'
+import ts from 'rollup-plugin-ts'
 import replace from '@rollup/plugin-replace'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
@@ -9,22 +8,9 @@ import pascalcase from 'pascalcase'
 const pkg = require('./package.json')
 const name = pkg.name.replace('@storipress/', '')
 
-function getAuthors(pkg) {
-  const { contributors, author } = pkg
-
-  const authors = new Set()
-  if (contributors && contributors)
-    contributors.forEach((contributor) => {
-      authors.add(contributor.name)
-    })
-  if (author) authors.add(author.name)
-
-  return Array.from(authors).join(', ')
-}
-
 const banner = `/*!
   * ${pkg.name} v${pkg.version}
-  * (c) ${new Date().getFullYear()} ${getAuthors(pkg)}
+  * Storipress (c) ${new Date().getFullYear()} Storipress Developers
   * @license MIT
   */`
 
@@ -91,16 +77,12 @@ function createConfig(format, output, plugins = []) {
 
   const tsPlugin = ts({
     check: !hasTSChecked,
-    tsconfig: path.resolve(__dirname, 'tsconfig.json'),
-    cacheRoot: path.resolve(__dirname, 'node_modules/.rts2_cache'),
-    tsconfigOverride: {
-      compilerOptions: {
-        sourceMap: output.sourcemap,
-        declaration: shouldEmitDeclarations,
-        declarationMap: shouldEmitDeclarations,
-      },
-      exclude: ['__tests__', 'test-dts'],
-    },
+    tsconfig: (resolvedConfig) => ({
+      ...resolvedConfig,
+      sourceMap: output.sourcemap,
+      declaration: shouldEmitDeclarations,
+      declarationMap: shouldEmitDeclarations,
+    }),
   })
   // we only need to check TS and generate declarations once for each build.
   // it also seems to run into weird issues when checking multiple times
