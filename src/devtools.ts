@@ -1,4 +1,5 @@
 import { setupDevtoolsPlugin, DevtoolsPluginApi } from '@vue/devtools-api'
+import { print } from 'graphql'
 import { Operation, FetchResult, DocumentNode, Observer } from '@apollo/client/core'
 import { getMainDefinition } from '@apollo/client/utilities'
 import { App } from 'vue'
@@ -34,7 +35,7 @@ function createTrackObserver(operation: Operation): Required<Omit<Observer<Fetch
     layerId: timelineLayerId,
     event: {
       time: Date.now(),
-      data: operation,
+      data: { ...operation, query: print(operation.query) },
       title,
       groupId,
     },

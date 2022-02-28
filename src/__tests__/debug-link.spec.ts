@@ -40,6 +40,50 @@ test('track subscriber should be called', async () => {
   })
 
   expect(trackStart).toHaveBeenCalledTimes(1)
+  expect(vi.mocked(trackStart).mock.calls[0]).toMatchInlineSnapshot(`
+    [
+      {
+        "extensions": {},
+        "operationName": "Foo",
+        "query": {
+          "definitions": [
+            {
+              "directives": [],
+              "kind": "OperationDefinition",
+              "name": {
+                "kind": "Name",
+                "value": "Foo",
+              },
+              "operation": "query",
+              "selectionSet": {
+                "kind": "SelectionSet",
+                "selections": [
+                  {
+                    "alias": undefined,
+                    "arguments": [],
+                    "directives": [],
+                    "kind": "Field",
+                    "name": {
+                      "kind": "Name",
+                      "value": "foo",
+                    },
+                    "selectionSet": undefined,
+                  },
+                ],
+              },
+              "variableDefinitions": [],
+            },
+          ],
+          "kind": "Document",
+          "loc": {
+            "end": 43,
+            "start": 0,
+          },
+        },
+        "variables": {},
+      },
+    ]
+  `)
   expect(observer.next).not.toHaveBeenCalled()
 
   await promise

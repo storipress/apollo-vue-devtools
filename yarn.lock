@@ -266,7 +266,7 @@ __metadata:
     cross-fetch: ^3.1.5
     graphql: ^16.3.0
     msw: ^0.38.1
-    pascalcase: ^2.0.0
+    pascalcase: ^1.0.0
     rimraf: ^3.0.2
     rollup: ^2.68.0
     rollup-plugin-terser: ^7.0.2
@@ -278,6 +278,7 @@ __metadata:
     vue: ^3.2.31
   peerDependencies:
     "@apollo/client": ^3.0.0
+    graphql: ^16.0.0
     vue: ^3.0.5
   languageName: unknown
   linkType: soft
@@ -908,13 +909,6 @@ __metadata:
   version: 2.0.1
   resolution: "camelcase-css@npm:2.0.1"
   checksum: 1cec2b3b3dcb5026688a470b00299a8db7d904c4802845c353dbd12d9d248d3346949a814d83bfd988d4d2e5b9904c07efe76fecd195a1d4f05b543e7c0b56b1
-  languageName: node
-  linkType: hard
-
-"camelcase@npm:^6.2.1":
-  version: 6.3.0
-  resolution: "camelcase@npm:6.3.0"
-  checksum: 8c96818a9076434998511251dcb2761a94817ea17dbdc37f47ac080bd088fc62c7369429a19e2178b993497132c8cbcf5cc1f44ba963e76782ba469c0474938d
   languageName: node
   linkType: hard
 
@@ -2595,12 +2589,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pascalcase@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "pascalcase@npm:2.0.0"
-  dependencies:
-    camelcase: ^6.2.1
-  checksum: 8c91259ecee8c7bd7138021ca08fc09c52beecd994954fcd82fb25c788106ee5400cb76e551e13487b576c64148f00c771e07791e4b2ee9a6fe1b98279d31548
+"pascalcase@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "pascalcase@npm:1.0.0"
+  checksum: 512268b402418d4993d13d801128062ab908cae28e19c2f4eacfda6940eacbf1f30debedce0dc0e000847db20b9b5f2b24076e7bbd15a426c968479390cef793
   languageName: node
   linkType: hard
 
