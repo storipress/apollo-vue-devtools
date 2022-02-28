@@ -89,7 +89,7 @@ function createConfig(format, output, plugins = []) {
   // during a single build.
   hasTSChecked = true
 
-  const external = ['vue', '@vue/composition-api', '@apollo/client/core', '@apollo/client/utilities']
+  const external = ['vue', '@vue/composition-api', '@apollo/client/core', '@apollo/client/utilities', 'graphql']
   if (!isGlobalBuild) {
     external.push('@vue/devtools-api')
   }
