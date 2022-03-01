@@ -6,9 +6,11 @@ import { App } from 'vue'
 
 const timelineLayerId = 'apollo-vue-devtool'
 
-let devtoolsApi: DevtoolsPluginApi<{}>
-
 const noop = () => {}
+
+let devtoolsApi: Pick<DevtoolsPluginApi<{}>, 'addTimelineEvent'> = {
+  addTimelineEvent: noop,
+}
 
 export const devtools = {
   trackStart: (operation: Operation): Required<Omit<Observer<FetchResult>, 'start'>> => {
@@ -37,6 +39,7 @@ function createTrackObserver(operation: Operation): Required<Omit<Observer<Fetch
       time: Date.now(),
       data: { ...operation, query: print(operation.query) },
       title,
+      subtitle: 'start',
       groupId,
     },
   })
@@ -48,7 +51,8 @@ function createTrackObserver(operation: Operation): Required<Omit<Observer<Fetch
         event: {
           time: Date.now(),
           data,
-          title: `${title} (response)`,
+          title,
+          subtitle: 'response',
           groupId,
         },
       })
@@ -59,7 +63,9 @@ function createTrackObserver(operation: Operation): Required<Omit<Observer<Fetch
         event: {
           time: Date.now(),
           data: { error },
-          title: `${title} (error)`,
+          title,
+          subtitle: 'error',
+          logType: 'error',
           groupId,
         },
       })
@@ -70,7 +76,8 @@ function createTrackObserver(operation: Operation): Required<Omit<Observer<Fetch
         event: {
           time: Date.now(),
           data: {},
-          title: `${title} (done)`,
+          title,
+          subtitle: 'done',
           groupId,
         },
       })
