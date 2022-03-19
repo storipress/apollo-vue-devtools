@@ -4,7 +4,7 @@
 
 ## Usage
 
-1. Add the main plugin to your Vue project:
+1. Add the plugin to your Vue project:
 ```js
 import { createApp } from 'vue'
 import Plugin from '@storipress/apollo-vue-devtool'
@@ -31,7 +31,7 @@ const client = new ApolloClient({
 })
 ```
 
-3. Now open the Vue Devtools and you'll see the queries in the timeline.
+3. Now open Vue Devtools and you'll see your queries in the timeline!
 
 ## Installation
 
