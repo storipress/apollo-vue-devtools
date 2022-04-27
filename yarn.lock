@@ -1599,7 +1599,7 @@ __metadata:
     "@vue/apollo-composable": ^4.0.0-alpha.16
     autoprefixer: 10.4.5
     graphql: ^16.3.0
-    postcss: 8.4.7
+    postcss: 8.4.12
     tailwindcss: 3.0.23
     vite: 2.8.4
     vue: ^3.2.31
@@ -2735,7 +2735,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.7, postcss@npm:^8.1.10, postcss@npm:^8.4.6":
+"postcss@npm:8.4.12":
+  version: 8.4.12
+  resolution: "postcss@npm:8.4.12"
+  dependencies:
+    nanoid: ^3.3.1
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 248e3d0f9bbb8efaafcfda7f91627a29bdc9a19f456896886330beb28c5abea0e14c7901b35191928602e2eccbed496b1e94097d27a0b2a980854cd00c7a835f
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.1.10, postcss@npm:^8.4.6":
   version: 8.4.7
   resolution: "postcss@npm:8.4.7"
   dependencies:
