@@ -217,9 +217,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:21.1.0":
-  version: 21.1.0
-  resolution: "@rollup/plugin-commonjs@npm:21.1.0"
+"@rollup/plugin-commonjs@npm:22.0.0":
+  version: 22.0.0
+  resolution: "@rollup/plugin-commonjs@npm:22.0.0"
   dependencies:
     "@rollup/pluginutils": ^3.1.0
     commondir: ^1.0.1
@@ -229,8 +229,8 @@ __metadata:
     magic-string: ^0.25.7
     resolve: ^1.17.0
   peerDependencies:
-    rollup: ^2.38.3
-  checksum: e8280f4b6192729f2bdf878c48c451dc441075f2a12f22c688393f48a6b95e8ff83caaacc3df4eb1d81516e08a0e3a669213632879910d85dd630b37bb284df7
+    rollup: ^2.68.0
+  checksum: fdcce2bf58875fde0e06f001544c0d9a0509a12929393862f72dcef8fcbf4d5d0ba0d5db6cf10ba4351335caf67a3dbdb95000678c468585e3972994f92e2ce9
   languageName: node
   linkType: hard
 
@@ -290,7 +290,7 @@ __metadata:
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
     "@apollo/client": 3.6.0
-    "@rollup/plugin-commonjs": 21.1.0
+    "@rollup/plugin-commonjs": 22.0.0
     "@rollup/plugin-node-resolve": 13.2.1
     "@rollup/plugin-replace": 4.0.0
     "@types/node": 17.0.21
