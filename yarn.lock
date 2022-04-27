@@ -5,7 +5,7 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@apollo/client@npm:^3.5.10":
+"@apollo/client@npm:3.5.10, @apollo/client@npm:^3.5.10":
   version: 3.5.10
   resolution: "@apollo/client@npm:3.5.10"
   dependencies:
@@ -256,7 +256,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": ^3.5.10
+    "@apollo/client": 3.5.10
     "@rollup/plugin-commonjs": 21.0.2
     "@rollup/plugin-node-resolve": 13.1.3
     "@rollup/plugin-replace": 4.0.0
