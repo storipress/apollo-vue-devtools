@@ -7,5 +7,6 @@
       "matchDepTypes": ["devDependencies", "patch", "minor", "pin"],
       "automerge": true
     }
-  ]
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
