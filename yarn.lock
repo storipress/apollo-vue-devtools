@@ -116,17 +116,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "@mswjs/interceptors@npm:0.15.1"
+"@mswjs/interceptors@npm:^0.16.3":
+  version: 0.16.4
+  resolution: "@mswjs/interceptors@npm:0.16.4"
   dependencies:
     "@open-draft/until": ^1.0.3
     "@xmldom/xmldom": ^0.7.5
     debug: ^4.3.3
     headers-polyfill: ^3.0.4
     outvariant: ^1.2.1
-    strict-event-emitter: ^0.2.0
-  checksum: 896ebae458f92fd601ed7dd3a5dfd18b30be54e7558a57f689013627ec5d4a50e2794a1c04d5bf587f40a65f9163a930cf88e54b12fa96bfa1677e7c12c7cb59
+    strict-event-emitter: ^0.2.4
+  checksum: b9a65ee8b274a607753c8a51a43f512ab917d5cf1ac7b4b04a2069b3dfeef866c9644ae78c7b3e9888a8ce28bd9ea0daf5e66526428842bfae58690fa6353ca9
   languageName: node
   linkType: hard
 
@@ -265,7 +265,7 @@ __metadata:
     "@vue/devtools-api": ^6.0.12
     cross-fetch: 3.1.5
     graphql: 16.5.0
-    msw: 0.41.1
+    msw: 0.42.0
     pascalcase: 2.0.0
     rimraf: 3.0.2
     rollup: 2.75.3
@@ -2363,12 +2363,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:0.41.1":
-  version: 0.41.1
-  resolution: "msw@npm:0.41.1"
+"msw@npm:0.42.0":
+  version: 0.42.0
+  resolution: "msw@npm:0.42.0"
   dependencies:
     "@mswjs/cookies": ^0.2.0
-    "@mswjs/interceptors": ^0.15.1
+    "@mswjs/interceptors": ^0.16.3
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.1
     "@types/js-levenshtein": ^1.1.1
@@ -2381,6 +2381,7 @@ __metadata:
     is-node-process: ^1.0.1
     js-levenshtein: ^1.1.6
     node-fetch: ^2.6.7
+    outvariant: ^1.3.0
     path-to-regexp: ^6.2.0
     statuses: ^2.0.0
     strict-event-emitter: ^0.2.0
@@ -2393,7 +2394,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: e6c8ec832da41023d293e9033728b99e987792de155f17bac56388ea57ca4110fab13f422510114a9ae0b12754f38a922c09a1eae7bc3339ee86a9db8a963c16
+  checksum: 9d347129004f4a8b88af73bc261f34578429fa35431bcfd7ee93aeaa177b552ffb39bb3e334ab84dd49cc0b32aa5d7721e38ad995bcc82dc4dc847bb5d047da0
   languageName: node
   linkType: hard
 
@@ -2571,7 +2572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"outvariant@npm:^1.2.1":
+"outvariant@npm:^1.2.1, outvariant@npm:^1.3.0":
   version: 1.3.0
   resolution: "outvariant@npm:1.3.0"
   checksum: ac76ca375c1c642989e1c74f0e9ebac84c05bc9fdc8f28be949c16fae1658e9f1f2fb1133fe3cc1e98afabef78fe4298fe9360b5734baf8e6ad440c182680848
@@ -3113,7 +3114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strict-event-emitter@npm:^0.2.0":
+"strict-event-emitter@npm:^0.2.0, strict-event-emitter@npm:^0.2.4":
   version: 0.2.4
   resolution: "strict-event-emitter@npm:0.2.4"
   dependencies:
