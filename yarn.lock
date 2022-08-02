@@ -275,7 +275,7 @@ __metadata:
     rollup-plugin-vue: 6.0.0
     typescript: 4.7.4
     vite: 3.0.4
-    vitest: 0.19.1
+    vitest: 0.20.3
     vue: 3.2.37
   peerDependencies:
     "@apollo/client": ^3.0.0
@@ -3903,9 +3903,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.19.1":
-  version: 0.19.1
-  resolution: "vitest@npm:0.19.1"
+"vitest@npm:0.20.3":
+  version: 0.20.3
+  resolution: "vitest@npm:0.20.3"
   dependencies:
     "@types/chai": ^4.3.1
     "@types/chai-subset": ^1.3.3
@@ -3938,7 +3938,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: f5f6bd69f2c196c072d9729805323d31dce06240cd18218e1b4387502d8c0f9cc4d2fad1e1f99a0fcbfe187d5c5e04d4ea2dd352cb99d3f06227b343e5cb4c6d
+  checksum: 1478030f2e34ee91274a544b7d2e2d447969ce37d6452bfbc8e21fe42ec6fb94c496a09b822d7c8d667cee243b6630c871640d4a8b4434e1a25b858dad3548ed
   languageName: node
   linkType: hard
 
