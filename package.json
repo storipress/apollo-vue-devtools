@@ -36,7 +36,7 @@
   "devDependencies": {
     "@apollo/client": "3.6.9",
     "@rollup/plugin-commonjs": "22.0.2",
-    "@rollup/plugin-node-resolve": "14.0.1",
+    "@rollup/plugin-node-resolve": "14.1.0",
     "@rollup/plugin-replace": "4.0.0",
     "@types/node": "17.0.21",
     "@vue/compiler-sfc": "3.2.39",
