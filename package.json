@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "tsc --watch -d",
     "test": "vitest",
-    "build": "rimraf dist && rollup -c rollup.config.js",
+    "build": "rimraf dist && rollup -c rollup.config.mjs",
     "prepack": "yarn build"
   },
   "dependencies": {

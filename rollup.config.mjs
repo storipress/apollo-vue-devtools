@@ -4,8 +4,10 @@ import replace from '@rollup/plugin-replace'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import pascalcase from 'pascalcase'
+import { readFile } from 'node:fs/promises'
+import typescript from 'typescript'
 
-const pkg = require('./package.json')
+const pkg = JSON.parse(await readFile('./package.json', 'utf-8'))
 const name = pkg.name.replace('@storipress/', '')
 
 const banner = `/*!
@@ -77,6 +79,7 @@ function createConfig(format, output, plugins = []) {
 
   const tsPlugin = ts({
     check: !hasTSChecked,
+    typescript,
     tsconfig: (resolvedConfig) => ({
       ...resolvedConfig,
       sourceMap: output.sourcemap,
