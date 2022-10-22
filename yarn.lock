@@ -242,18 +242,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@rollup/plugin-replace@npm:5.0.0"
+"@rollup/plugin-replace@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@rollup/plugin-replace@npm:5.0.1"
   dependencies:
-    "@rollup/pluginutils": ^4.2.1
+    "@rollup/pluginutils": ^5.0.1
     magic-string: ^0.26.4
   peerDependencies:
     rollup: ^1.20.0||^2.0.0||^3.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: fdf128d2db100d909ea2635192fe6412272bb953efc991c337914029a9ac554abb6c45e6d623277ed8490049b8b6eaad661034bcc88e81a60ffa8b111a8bb239
+  checksum: d5f98a93dd24086ed1bf70e9299230d1fddae9b132280e2daaca855dba2307eccd5490553e2a03b701b7411593d2921d2d675e5d906b4754c57152f8c50adb07
   languageName: node
   linkType: hard
 
@@ -290,7 +290,7 @@ __metadata:
     "@apollo/client": 3.7.0
     "@rollup/plugin-commonjs": 23.0.2
     "@rollup/plugin-node-resolve": 15.0.1
-    "@rollup/plugin-replace": 5.0.0
+    "@rollup/plugin-replace": 5.0.1
     "@types/node": 17.0.21
     "@vue/compiler-sfc": 3.2.41
     "@vue/devtools-api": ^6.0.12
