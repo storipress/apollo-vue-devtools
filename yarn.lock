@@ -309,10 +309,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdn/browser-compat-data@npm:^4.1.16":
-  version: 4.1.18
-  resolution: "@mdn/browser-compat-data@npm:4.1.18"
-  checksum: 49d1d6f879695693f5a0ba08d92d19a4c9266bf265fc7cb41dc0c36ef8b18a69955e705931d2a4f6a566bab2df792a39a6534ecfaf5e46e8c4f3aa59e6978f06
+"@mdn/browser-compat-data@npm:^5.2.30":
+  version: 5.2.30
+  resolution: "@mdn/browser-compat-data@npm:5.2.30"
+  checksum: e489d54bc03be90032b02eae364726a60e9852a89a8322cbfeb90e26207ac06c7f6f10887eeade390eccc835c4d193262410af4bbc18c2dc841cf3ea25555270
   languageName: node
   linkType: hard
 
@@ -483,7 +483,7 @@ __metadata:
     rimraf: 4.1.1
     rollup: 3.10.1
     rollup-plugin-terser: 7.0.2
-    rollup-plugin-ts: 3.1.1
+    rollup-plugin-ts: 3.2.0
     rollup-plugin-vue: 6.0.0
     typescript: 4.9.4
     vite: 4.0.4
@@ -584,10 +584,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/semver@npm:^7.3.9":
-  version: 7.3.9
-  resolution: "@types/semver@npm:7.3.9"
-  checksum: 60bfcfdfa7f937be2c6f4b37ddb6714fb0f27b05fe4cbdfdd596a97d35ed95d13ee410efdd88e72a66449d0384220bf20055ab7d6b5df10de4990fbd20e5cbe0
+"@types/semver@npm:^7.3.13":
+  version: 7.3.13
+  resolution: "@types/semver@npm:7.3.13"
+  checksum: 00c0724d54757c2f4bc60b5032fe91cda6410e48689633d5f35ece8a0a66445e3e57fa1d6e07eb780f792e82ac542948ec4d0b76eb3484297b79bd18b8cf1cb0
   languageName: node
   linkType: hard
 
@@ -1124,40 +1124,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist-generator@npm:^1.0.66":
-  version: 1.0.66
-  resolution: "browserslist-generator@npm:1.0.66"
+"browserslist-generator@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "browserslist-generator@npm:2.0.1"
   dependencies:
-    "@mdn/browser-compat-data": ^4.1.16
+    "@mdn/browser-compat-data": ^5.2.30
     "@types/object-path": ^0.11.1
-    "@types/semver": ^7.3.9
+    "@types/semver": ^7.3.13
     "@types/ua-parser-js": ^0.7.36
-    browserslist: 4.20.2
-    caniuse-lite: ^1.0.30001328
-    isbot: 3.4.5
+    browserslist: 4.21.4
+    caniuse-lite: ^1.0.30001446
+    isbot: 3.6.5
     object-path: ^0.11.8
-    semver: ^7.3.7
-    ua-parser-js: ^1.0.2
-  checksum: b8ad83f8ee7cbd45ed17d20d70bf63dcece74c1548b36ce4bedd802a08fad2ccf5519444b3f38b574c7b70349a026017824653cf41c9abed09c16350e758d163
+    semver: ^7.3.8
+    ua-parser-js: ^1.0.32
+  checksum: a07c73f59f8a17df8c31168f1bdd8f1604b8dd88e28e14e5bf346be736b3cf3b851b9399c2c2ba75818f29a0b6416e7c369520ff81ec89eaacc15aca5f32642d
   languageName: node
   linkType: hard
 
-"browserslist@npm:4.20.2":
-  version: 4.20.2
-  resolution: "browserslist@npm:4.20.2"
-  dependencies:
-    caniuse-lite: ^1.0.30001317
-    electron-to-chromium: ^1.4.84
-    escalade: ^3.1.1
-    node-releases: ^2.0.2
-    picocolors: ^1.0.0
-  bin:
-    browserslist: cli.js
-  checksum: 18e09beeae32e69fea45fc3642240fb63027b1460d90e24da86377177dca3d82c80f8fa44469d95109e3962f08eb2a23e03037bd5e1f1ec38e4866e2a8572435
-  languageName: node
-  linkType: hard
-
-"browserslist@npm:^4.21.4":
+"browserslist@npm:4.21.4, browserslist@npm:^4.21.4":
   version: 4.21.4
   resolution: "browserslist@npm:4.21.4"
   dependencies:
@@ -1252,10 +1237,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001317, caniuse-lite@npm:^1.0.30001328, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
-  version: 1.0.30001426
-  resolution: "caniuse-lite@npm:1.0.30001426"
-  checksum: e8b9c14ee33410d95b27da619f50648f373a7be712748970643f25d95fa80687b4755ba365f34a7a1cea00f9137193943aa6e742eedf0a4d7857f83809f49435
+"caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426, caniuse-lite@npm:^1.0.30001446":
+  version: 1.0.30001447
+  resolution: "caniuse-lite@npm:1.0.30001447"
+  checksum: b45ae1c4f2df2fb9ad71dc543b1d71c00b125c1aea1ffa25086fe4bee6c17163222dfaa6c0b8488e403b801f6550889f712d1624ba000a7acb8538a62c738c56
   languageName: node
   linkType: hard
 
@@ -1633,7 +1618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.251, electron-to-chromium@npm:^1.4.84":
+"electron-to-chromium@npm:^1.4.251":
   version: 1.4.256
   resolution: "electron-to-chromium@npm:1.4.256"
   checksum: 878ca8e33a05165808a662b52ac332a42a5fcf842540de38c4cdde462e4c2cb2f2c10c4864cd44c486f8470f88818f42d275774865666aad424e1e4f500d91e8
@@ -2566,10 +2551,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isbot@npm:3.4.5":
-  version: 3.4.5
-  resolution: "isbot@npm:3.4.5"
-  checksum: f44faf80d2e30a6cbb03f445021ae261bb46e086b560a936f2c3a0c69ab87b366b2723705a1a95b51f122c4ff74f6509e9c467927a8d6813d17c66ce4c12f9f0
+"isbot@npm:3.6.5":
+  version: 3.6.5
+  resolution: "isbot@npm:3.6.5"
+  checksum: d8bb8a71d11966ab27df943f47710ec7540960e4500fd6dbacab0f0afcbb134fe0e28f64027e015225d96b2dd4647c99e3d7c5640aa5e7d0c0503484434f6250
   languageName: node
   linkType: hard
 
@@ -2973,7 +2958,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.2, node-releases@npm:^2.0.6":
+"node-releases@npm:^2.0.6":
   version: 2.0.6
   resolution: "node-releases@npm:2.0.6"
   checksum: e86a926dc9fbb3b41b4c4a89d998afdf140e20a4e8dbe6c0a807f7b2948b42ea97d7fd3ad4868041487b6e9ee98409829c6e4d84a734a4215dff060a7fbeb4bf
@@ -3512,15 +3497,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-ts@npm:3.1.1":
-  version: 3.1.1
-  resolution: "rollup-plugin-ts@npm:3.1.1"
+"rollup-plugin-ts@npm:3.2.0":
+  version: 3.2.0
+  resolution: "rollup-plugin-ts@npm:3.2.0"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     "@wessberg/stringutil": ^1.0.19
     ansi-colors: ^4.1.3
     browserslist: ^4.21.4
-    browserslist-generator: ^1.0.66
+    browserslist-generator: ^2.0.1
     compatfactory: ^2.0.9
     crosspath: ^2.0.0
     magic-string: ^0.27.0
@@ -3551,7 +3536,7 @@ __metadata:
       optional: true
     "@swc/helpers":
       optional: true
-  checksum: 6d72e7bd7e8b62dde402ec1cc60053204e917e8f9c330805efbfbedcd2552f1e53476867069a2d17b8ba3c5bfc1381903930980b65f1d8730395822ce09a1b82
+  checksum: 41714b504b3a41eb576db0b4fbd353c178fa0d163a2fd2812c94ba17aa01751a9665b3bc5c64c6d3545b64f881f6daf8f24807f4a1c5a8bd7edd8e66875796e0
   languageName: node
   linkType: hard
 
@@ -3630,14 +3615,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.7":
-  version: 7.3.7
-  resolution: "semver@npm:7.3.7"
+"semver@npm:^7.3.5, semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
+  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
   languageName: node
   linkType: hard
 
@@ -4117,10 +4102,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ua-parser-js@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "ua-parser-js@npm:1.0.2"
-  checksum: ff7f6d79a9c1a38aa85a0e751040fc7e17a0b621bda876838d14ebe55aca4e50e68da0350f181e58801c2d8a35e7db4e12473776e558910c4b7cabcec96aa3bf
+"ua-parser-js@npm:^1.0.32":
+  version: 1.0.33
+  resolution: "ua-parser-js@npm:1.0.33"
+  checksum: 460adef51235267345b221842979b6b167543725d03f7c9c4f9ca6af4da835a71d016390da139d2b32828063c4730dcfae6e53b9dce815f4000be4e1fe1c7737
   languageName: node
   linkType: hard
 
