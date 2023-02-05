@@ -481,7 +481,7 @@ __metadata:
     msw: 1.0.0
     pascalcase: 2.0.0
     rimraf: 4.1.2
-    rollup: 3.13.0
+    rollup: 3.14.0
     rollup-plugin-terser: 7.0.2
     rollup-plugin-ts: 3.2.0
     rollup-plugin-vue: 6.0.0
@@ -3562,9 +3562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.13.0, rollup@npm:^3.7.0":
-  version: 3.13.0
-  resolution: "rollup@npm:3.13.0"
+"rollup@npm:3.14.0, rollup@npm:^3.7.0":
+  version: 3.14.0
+  resolution: "rollup@npm:3.14.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -3572,7 +3572,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 9de4d705a016942b6c05111cd95fa5e0b12f079edac5691b8ccbddd55bd9e606e7534d66b5e4867d8f6c69b76a5539a43d448f866295777d23d54581361868d1
+  checksum: 48f4da224753b8022529256243b74b3f6f41d9b4358ba079ac42f2a2cf07e4bd01b5d94579338194238e3c575487974ca508e144cf6195123293e7fdf82506cb
   languageName: node
   linkType: hard
 
