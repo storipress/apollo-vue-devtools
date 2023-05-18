@@ -39,7 +39,7 @@
     "@rollup/plugin-node-resolve": "15.0.2",
     "@rollup/plugin-replace": "5.0.2",
     "@types/node": "18.16.12",
-    "@vue/compiler-sfc": "3.3.2",
+    "@vue/compiler-sfc": "3.3.3",
     "cross-fetch": "3.1.6",
     "graphql": "16.6.0",
     "msw": "1.2.1",
@@ -52,7 +52,7 @@
     "typescript": "5.0.4",
     "vite": "4.3.7",
     "vitest": "0.31.1",
-    "vue": "3.3.2"
+    "vue": "3.3.3"
   },
   "publishConfig": {
     "access": "public"
