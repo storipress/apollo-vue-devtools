@@ -534,7 +534,7 @@ __metadata:
     rimraf: 5.0.1
     rollup: 3.27.2
     rollup-plugin-terser: 7.0.2
-    rollup-plugin-ts: 3.4.2
+    rollup-plugin-ts: 3.4.3
     rollup-plugin-vue: 6.0.0
     typescript: 5.1.6
     vite: 4.4.8
@@ -3632,9 +3632,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-ts@npm:3.4.2":
-  version: 3.4.2
-  resolution: "rollup-plugin-ts@npm:3.4.2"
+"rollup-plugin-ts@npm:3.4.3":
+  version: 3.4.3
+  resolution: "rollup-plugin-ts@npm:3.4.3"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     "@wessberg/stringutil": ^1.0.19
@@ -3647,11 +3647,11 @@ __metadata:
     ts-clone-node: ^3.0.0
     tslib: ^2.6.1
   peerDependencies:
-    "@babel/core": ">=6.x || >=7.x"
-    "@babel/plugin-transform-runtime": ">=6.x || >=7.x"
-    "@babel/preset-env": ">=6.x || >=7.x"
-    "@babel/preset-typescript": ">=6.x || >=7.x"
-    "@babel/runtime": ">=6.x || >=7.x"
+    "@babel/core": ">=7.x"
+    "@babel/plugin-transform-runtime": ">=7.x"
+    "@babel/preset-env": ">=7.x"
+    "@babel/preset-typescript": ">=7.x"
+    "@babel/runtime": ">=7.x"
     "@swc/core": ">=1.x"
     "@swc/helpers": ">=0.2"
     rollup: ">=1.x || >=2.x || >=3.x"
@@ -3671,7 +3671,7 @@ __metadata:
       optional: true
     "@swc/helpers":
       optional: true
-  checksum: 1dd5a38550b4ee966a8dd7421c5c3e17a3f0976d8783785f9c28f8e0662bd264d841d79fdb6579b23eb8d8a5bef2b773643a68c7eaab9c20e10b1ff4039fc082
+  checksum: 91366f33310a7992293082129bc716af7fd5309594449bc138bcc31c48275c3e9dc0ed1195a765e88e8625112f2c8707c07a3c826a082a011377cf5db4bdb0d5
   languageName: node
   linkType: hard
 
