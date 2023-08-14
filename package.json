@@ -41,7 +41,7 @@
     "@types/node": "18.17.5",
     "@vue/compiler-sfc": "3.3.4",
     "cross-fetch": "4.0.0",
-    "graphql": "16.7.1",
+    "graphql": "16.8.0",
     "msw": "1.2.3",
     "pascalcase": "2.0.0",
     "rimraf": "5.0.1",
