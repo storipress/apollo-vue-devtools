@@ -42,7 +42,7 @@
     "@vue/compiler-sfc": "3.3.4",
     "cross-fetch": "4.0.0",
     "graphql": "16.8.0",
-    "msw": "1.2.4",
+    "msw": "1.2.5",
     "pascalcase": "2.0.0",
     "rimraf": "5.0.1",
     "rollup": "3.28.1",
