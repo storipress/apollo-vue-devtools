@@ -529,7 +529,7 @@ __metadata:
     "@vue/devtools-api": ^6.0.12
     cross-fetch: 4.0.0
     graphql: 16.8.0
-    msw: 1.2.4
+    msw: 1.2.5
     pascalcase: 2.0.0
     rimraf: 5.0.1
     rollup: 3.28.1
@@ -2953,9 +2953,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:1.2.4":
-  version: 1.2.4
-  resolution: "msw@npm:1.2.4"
+"msw@npm:1.2.5":
+  version: 1.2.5
+  resolution: "msw@npm:1.2.5"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.5
@@ -2983,7 +2983,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: ff32efd2e89b6e4e0b646362907658c2b37756a92d46a294171e0ef5c4488217f87381b7740a6c9e5d7ed9c490ce33474f56f5dba8524340233cd89f1de0b0e1
+  checksum: 652c44a100cba0382d6cdf4c2a4dfb90edd9665c7d06bc10f15bd96fe458c6a6f4943c2dec3f1a9d5efef0f7d59ae805ebdf289b52991956d95601e5f42fb8b1
   languageName: node
   linkType: hard
 
