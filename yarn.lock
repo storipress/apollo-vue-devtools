@@ -534,7 +534,7 @@ __metadata:
     rimraf: 5.0.1
     rollup: 3.29.0
     rollup-plugin-terser: 7.0.2
-    rollup-plugin-ts: 3.4.4
+    rollup-plugin-ts: 3.4.5
     rollup-plugin-vue: 6.0.0
     typescript: 5.2.2
     vite: 4.4.9
@@ -3617,9 +3617,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-ts@npm:3.4.4":
-  version: 3.4.4
-  resolution: "rollup-plugin-ts@npm:3.4.4"
+"rollup-plugin-ts@npm:3.4.5":
+  version: 3.4.5
+  resolution: "rollup-plugin-ts@npm:3.4.5"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     "@wessberg/stringutil": ^1.0.19
@@ -3656,7 +3656,7 @@ __metadata:
       optional: true
     "@swc/helpers":
       optional: true
-  checksum: 669947e4da43f5da1f3a9475da776de7efb02123bb98b439086f32d96c533db098f5a9f400c27fb5d7c82e22c449e1efc17988c85c49271ef1cd8b83d4703c23
+  checksum: 10cac39d323eeadb49565fee23c78d663ae91e95b5558de6f21002dec47358c8165fcc6c87c5747d5022c950a23dc3972536a8ddd555a77a33b4ac1fef32f2e6
   languageName: node
   linkType: hard
 
