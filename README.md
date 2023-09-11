@@ -1,5 +1,11 @@
 # apollo-vue-devtool: Integrate Apollo with Vue Devtools
 
+<p align="center">
+    <a href="https://codeclimate.com/github/storipress/apollo-vue-devtools/maintainability"><img src="https://api.codeclimate.com/v1/badges/2fbe8efb091e0ae30c69/maintainability" /></a>
+    <a href="https://codeclimate.com/github/storipress/apollo-vue-devtools/test_coverage"><img src="https://api.codeclimate.com/v1/badges/2fbe8efb091e0ae30c69/test_coverage" /></a>
+ </p>
+
+
 ![](./example/src/assets/timeline.png)
 
 ## Usage
