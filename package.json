@@ -50,7 +50,7 @@
     "rollup-plugin-ts": "3.4.5",
     "rollup-plugin-vue": "6.0.0",
     "typescript": "5.2.2",
-    "vite": "4.4.9",
+    "vite": "4.4.10",
     "vitest": "0.34.6",
     "vue": "3.3.4"
   },
