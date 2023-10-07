@@ -38,7 +38,7 @@
     "@rollup/plugin-commonjs": "25.0.5",
     "@rollup/plugin-node-resolve": "15.2.2",
     "@rollup/plugin-replace": "5.0.3",
-    "@types/node": "18.18.3",
+    "@types/node": "18.18.4",
     "@vue/compiler-sfc": "3.3.4",
     "cross-fetch": "4.0.0",
     "graphql": "16.8.1",
