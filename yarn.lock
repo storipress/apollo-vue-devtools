@@ -12,17 +12,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.8.7, @apollo/client@npm:^3.5.10":
-  version: 3.8.7
-  resolution: "@apollo/client@npm:3.8.7"
+"@apollo/client@npm:3.8.8, @apollo/client@npm:^3.5.10":
+  version: 3.8.8
+  resolution: "@apollo/client@npm:3.8.8"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
-    "@wry/context": ^0.7.3
     "@wry/equality": ^0.5.6
-    "@wry/trie": ^0.4.3
+    "@wry/trie": ^0.5.0
     graphql-tag: ^2.12.6
     hoist-non-react-statics: ^3.3.2
-    optimism: ^0.17.5
+    optimism: ^0.18.0
     prop-types: ^15.7.2
     response-iterator: ^0.2.6
     symbol-observable: ^4.0.0
@@ -44,7 +43,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: b4343d7f64481d6e4ee9f3ff461cfdab669728104b7540a4fff885232335fed55920e76de823ee4f2fa711aa72afbbf1cfe29601eacabb3577dc1f3ee82046d4
+  checksum: df01412424b61f0b102b8453dfc611d7a2bdae6921fed31700196939076f1c6774eb942dc52bf6dc3f7212280dc0748998b243e09f60b889d989d9a1f08f30b3
   languageName: node
   linkType: hard
 
@@ -604,7 +603,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": 3.8.7
+    "@apollo/client": 3.8.8
     "@rollup/plugin-commonjs": 25.0.7
     "@rollup/plugin-node-resolve": 15.2.3
     "@rollup/plugin-replace": 5.0.5
@@ -952,7 +951,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wry/context@npm:^0.7.0, @wry/context@npm:^0.7.3":
+"@wry/caches@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@wry/caches@npm:1.0.1"
+  dependencies:
+    tslib: ^2.3.0
+  checksum: 9e89aa8e9e08577b2e4acbe805f406b141ae49c2ac4a2e22acf21fbee68339fa0550e0dee28cf2158799f35bb812326e80212e49e2afd169f39f02ad56ae4ef4
+  languageName: node
+  linkType: hard
+
+"@wry/context@npm:^0.7.0":
   version: 0.7.3
   resolution: "@wry/context@npm:0.7.3"
   dependencies:
@@ -976,6 +984,15 @@ __metadata:
   dependencies:
     tslib: ^2.3.0
   checksum: 106e021125cfafd22250a6631a0438a6a3debae7bd73f6db87fe42aa0757fe67693db0dfbe200ae1f60ba608c3e09ddb8a4e2b3527d56ed0a7e02aa0ee4c94e1
+  languageName: node
+  linkType: hard
+
+"@wry/trie@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@wry/trie@npm:0.5.0"
+  dependencies:
+    tslib: ^2.3.0
+  checksum: 92aeea34152bd8485184236fe328d3d05fc98ee3b431d82ee60cf3584dbf68155419c3d65d0ff3731b204ee79c149440a9b7672784a545afddc8d4342fbf21c9
   languageName: node
   linkType: hard
 
@@ -3243,14 +3260,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"optimism@npm:^0.17.5":
-  version: 0.17.5
-  resolution: "optimism@npm:0.17.5"
+"optimism@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "optimism@npm:0.18.0"
   dependencies:
+    "@wry/caches": ^1.0.0
     "@wry/context": ^0.7.0
     "@wry/trie": ^0.4.3
     tslib: ^2.3.0
-  checksum: 5990217d989e9857dc523a64cb6e5a9205eae68c7acac78f7dde8fbe50045d0f11ca8068cdbb51b1eae15510d96ad593a99cf98c6f86c41d1b6f90e54956ff11
+  checksum: d6ed6a90b05ee886dadfe556c7a30227c66843f51278e51eb843977a6a9368b6c50297fcc63fa514f53d8a5a58f8ddc8049c2356bd4ffac32f8961bcb806254d
   languageName: node
   linkType: hard
 
