@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.9.2, @apollo/client@npm:^3.5.10":
-  version: 3.9.2
-  resolution: "@apollo/client@npm:3.9.2"
+"@apollo/client@npm:3.9.3, @apollo/client@npm:^3.5.10":
+  version: 3.9.3
+  resolution: "@apollo/client@npm:3.9.3"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/caches": ^1.0.0
@@ -24,7 +24,7 @@ __metadata:
     hoist-non-react-statics: ^3.3.2
     optimism: ^0.18.0
     prop-types: ^15.7.2
-    rehackt: 0.0.3
+    rehackt: 0.0.4
     response-iterator: ^0.2.6
     symbol-observable: ^4.0.0
     ts-invariant: ^0.10.3
@@ -45,7 +45,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: e5597d88fc31eef1483fdf89ce68973045f99ff608607d89170453f56e485f81405235a68ee5f5bd87a94e0769b6e27d54c7d6c3c59f6cae91b1be9bf90f3fd8
+  checksum: fd5cefc9109e534f44c9bb161dae7714ea36bdd16f99a2a9bd33a2077ce92e7fe43c218f5158fa5b7ce00c424a73246805d11c87cd79a3d37a4c42f3f20b7d2e
   languageName: node
   linkType: hard
 
@@ -612,7 +612,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": 3.9.2
+    "@apollo/client": 3.9.3
     "@rollup/plugin-commonjs": 25.0.7
     "@rollup/plugin-node-resolve": 15.2.3
     "@rollup/plugin-replace": 5.0.5
@@ -3681,9 +3681,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rehackt@npm:0.0.3":
-  version: 0.0.3
-  resolution: "rehackt@npm:0.0.3"
+"rehackt@npm:0.0.4":
+  version: 0.0.4
+  resolution: "rehackt@npm:0.0.4"
   peerDependencies:
     "@types/react": "*"
     react: "*"
@@ -3692,7 +3692,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 2e3674d84aca46802f38cf5b01c62bf7d0ca5e324b2749dd79156fa61723e9f84df7778c39f97d351e815a852a8a8ac9633e29b6b7b8734d18042fda86620f54
+  checksum: f2811c24847f7a03935c3b2093a01439f883550f6022e6d220574d0f4333fc24dd1bd746bb579038723eef1c48a2ce3002dd91aea9c2e15d2bd105ed6786f8c1
   languageName: node
   linkType: hard
 
