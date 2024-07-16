@@ -1898,7 +1898,7 @@ __metadata:
     autoprefixer: 10.4.19
     graphql: ^16.3.0
     postcss: 8.4.39
-    tailwindcss: 3.4.5
+    tailwindcss: 3.4.6
     vite: 5.3.4
     vue: ^3.2.31
   languageName: unknown
@@ -4187,9 +4187,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.4.5":
-  version: 3.4.5
-  resolution: "tailwindcss@npm:3.4.5"
+"tailwindcss@npm:3.4.6":
+  version: 3.4.6
+  resolution: "tailwindcss@npm:3.4.6"
   dependencies:
     "@alloc/quick-lru": ^5.2.0
     arg: ^5.0.2
@@ -4216,7 +4216,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 8b14371f6e53f1cb4816d337efda904dd558868cee4bbd5e9bf8d132ce8083e8cea4642948f3966f93ba79d50da72ffa05c373399207d36908692ec10046728c
+  checksum: bb5ea38bbceedfea6bad3fdb951b45c14bc875d56d69bd4a3d76862183d9112ab4f938920473a876293baffefb9f62118d4fac3e592e32d7c268b58a7fd0c374
   languageName: node
   linkType: hard
 
