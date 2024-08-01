@@ -747,13 +747,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@vitejs/plugin-vue@npm:5.1.1"
+"@vitejs/plugin-vue@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@vitejs/plugin-vue@npm:5.1.2"
   peerDependencies:
     vite: ^5.0.0
     vue: ^3.2.25
-  checksum: 58cc8e388c4dfe0f6b9d8efcf9eeb7730a5942e9509a8e5e6276af2bdb4bc6ab5422e4ab82121f94d618a58104efc4a1a5911f87f47fac6de3f563e49f379d07
+  checksum: ea4f3f87c62356efc5f11e266dcc575c063333c04b4e5ddeb3d58d245f0a7ba0b1ee16590c4d0d96b2af7bb33141b065d19fb0ce30a716ab329c92a6ceecd206
   languageName: node
   linkType: hard
 
@@ -1893,7 +1893,7 @@ __metadata:
   resolution: "example@workspace:example"
   dependencies:
     "@apollo/client": ^3.5.10
-    "@vitejs/plugin-vue": 5.1.1
+    "@vitejs/plugin-vue": 5.1.2
     "@vue/apollo-composable": ^4.0.0-alpha.16
     autoprefixer: 10.4.19
     graphql: ^16.3.0
