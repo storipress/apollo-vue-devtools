@@ -49,7 +49,7 @@
     "@rollup/plugin-terser": "0.4.4",
     "rollup-plugin-ts": "3.4.5",
     "rollup-plugin-vue": "6.0.0",
-    "typescript": "5.5.4",
+    "typescript": "5.6.2",
     "vite": "5.4.3",
     "vitest": "2.0.5",
     "vue": "3.5.3"
