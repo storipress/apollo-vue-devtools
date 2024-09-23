@@ -627,7 +627,7 @@ __metadata:
     "@rollup/plugin-node-resolve": 15.2.4
     "@rollup/plugin-replace": 5.0.7
     "@rollup/plugin-terser": 0.4.4
-    "@types/node": 20.16.5
+    "@types/node": 20.16.6
     "@vue/compiler-sfc": 3.5.8
     "@vue/devtools-api": ^6.0.12
     cross-fetch: 4.0.0
@@ -693,12 +693,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.16.5":
-  version: 20.16.5
-  resolution: "@types/node@npm:20.16.5"
+"@types/node@npm:*, @types/node@npm:20.16.6":
+  version: 20.16.6
+  resolution: "@types/node@npm:20.16.6"
   dependencies:
     undici-types: ~6.19.2
-  checksum: f38b7bd8c4993dcf38943afa2ffdd7dfd18fc94f8f3f28d0c1045a10d39871a6cc1b8f8d3bf0c7ed848457d0e1d283482f6ca125579c13fed1b7575d23e8e8f5
+  checksum: 453bbd5963d919ff7582574d0cabc3916fd23dc0cc688459e34ef4524df79d55cd5014f0d3948bf4512c04ded07de578613833c7a65a32e4e5fb5df6447d5681
   languageName: node
   linkType: hard
 
