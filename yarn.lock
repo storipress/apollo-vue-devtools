@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.11.8, @apollo/client@npm:^3.5.10":
-  version: 3.11.8
-  resolution: "@apollo/client@npm:3.11.8"
+"@apollo/client@npm:3.11.9, @apollo/client@npm:^3.5.10":
+  version: 3.11.9
+  resolution: "@apollo/client@npm:3.11.9"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/caches": ^1.0.0
@@ -45,7 +45,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: 80ce505be674b6d2df5501fa28770a45039d3b628df1cbaae1357c54c4968db8c156dad21167681be6df9951f1abac5d4a6b2c04de8b726addad9fe0831c8fdb
+  checksum: 47e9c7bf7816f63152d0d523b6e3d0b0d9bed820cfb190f938e4b61e30afae8f4e996131e454861c69911430892cfd09218471f21da7a0b5d11f8c386d6fea32
   languageName: node
   linkType: hard
 
@@ -637,7 +637,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": 3.11.8
+    "@apollo/client": 3.11.9
     "@rollup/plugin-commonjs": 28.0.1
     "@rollup/plugin-node-resolve": 15.3.0
     "@rollup/plugin-replace": 6.0.1
