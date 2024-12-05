@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:3.12.1, @apollo/client@npm:^3.5.10":
-  version: 3.12.1
-  resolution: "@apollo/client@npm:3.12.1"
+"@apollo/client@npm:3.12.2, @apollo/client@npm:^3.5.10":
+  version: 3.12.2
+  resolution: "@apollo/client@npm:3.12.2"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/caches": ^1.0.0
@@ -33,8 +33,8 @@ __metadata:
   peerDependencies:
     graphql: ^15.0.0 || ^16.0.0
     graphql-ws: ^5.5.5
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc <19.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc <19.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
     subscriptions-transport-ws: ^0.9.0 || ^0.11.0
   peerDependenciesMeta:
     graphql-ws:
@@ -45,7 +45,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: e0a4c653e7738357aa27287d64a62ccf0d82a20a01bba65ea875f4859e44bca6b61daadd411e6392219129648ab790639ac0780018bb7f83cc48a1595dc67f9a
+  checksum: 950f09d53e178a0ea4793d40eae10cfd1b8b65ff58929ce1e097b666c07ec363aee82cec30a3644f00585ab001cf72e2c990a221a9ca92f501906111e63d9147
   languageName: node
   linkType: hard
 
@@ -805,7 +805,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": 3.12.1
+    "@apollo/client": 3.12.2
     "@rollup/plugin-commonjs": 28.0.1
     "@rollup/plugin-node-resolve": 15.3.0
     "@rollup/plugin-replace": 6.0.1
