@@ -829,7 +829,7 @@ __metadata:
     rollup-plugin-ts: 3.4.5
     rollup-plugin-vue: 6.0.0
     typescript: 5.7.2
-    vite: 6.0.3
+    vite: 6.0.4
     vitest: 2.1.8
     vue: 3.5.13
   peerDependencies:
@@ -2189,7 +2189,7 @@ __metadata:
     graphql: ^16.3.0
     postcss: 8.4.49
     tailwindcss: 3.4.17
-    vite: 6.0.3
+    vite: 6.0.4
     vue: ^3.2.31
   languageName: unknown
   linkType: soft
@@ -4730,9 +4730,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.0.3":
-  version: 6.0.3
-  resolution: "vite@npm:6.0.3"
+"vite@npm:6.0.4":
+  version: 6.0.4
+  resolution: "vite@npm:6.0.4"
   dependencies:
     esbuild: ^0.24.0
     fsevents: ~2.3.3
@@ -4778,7 +4778,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: b6738c1f78dbd58bc4d56cb3aba96d4fabc095c61633bbeff8778fd5ab72c4040eda2609a10d4163553b52b5481ed2f8bb6eba862798ed8b8320d60d5d29a4e6
+  checksum: 4582eb53ba274b92cd4b1799be05ca5714a37cef6ac6135c1a0835ca47943a9dd3a4d608f2dcb5571241cf6339fd3164f36a9fdb97ba71368ccd57aa5347671d
   languageName: node
   linkType: hard
 
