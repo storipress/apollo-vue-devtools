@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@apollo/client@npm:3.12.9, @apollo/client@npm:^3.5.10":
-  version: 3.12.9
-  resolution: "@apollo/client@npm:3.12.9"
+"@apollo/client@npm:3.12.10, @apollo/client@npm:^3.5.10":
+  version: 3.12.10
+  resolution: "@apollo/client@npm:3.12.10"
   dependencies:
     "@graphql-typed-document-node/core": ^3.1.1
     "@wry/caches": ^1.0.0
@@ -24,7 +24,7 @@ __metadata:
     zen-observable-ts: ^1.2.5
   peerDependencies:
     graphql: ^15.0.0 || ^16.0.0
-    graphql-ws: ^5.5.5
+    graphql-ws: ^5.5.5 || ^6.0.3
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc
     subscriptions-transport-ws: ^0.9.0 || ^0.11.0
@@ -37,7 +37,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: b5d721de537baeacf891599581a657f80a46235cb715462db6ad26e41da67709a3695340ae136b1c521b21804fd55b88166fc213319eab575b189a7be6525960
+  checksum: b6931f4d7db032aad4f287341834f60147a0b1f2a9cf32dde8d94d8daa1ac5963bacfbb09cf0dc8612d5bc2d47afc8279919ec92c0866a2a16a21795845a8d0e
   languageName: node
   linkType: hard
 
@@ -784,7 +784,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/apollo-vue-devtool@workspace:."
   dependencies:
-    "@apollo/client": 3.12.9
+    "@apollo/client": 3.12.10
     "@rollup/plugin-commonjs": 28.0.2
     "@rollup/plugin-node-resolve": 16.0.0
     "@rollup/plugin-replace": 6.0.2
