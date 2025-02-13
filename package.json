@@ -34,7 +34,7 @@
     "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@apollo/client": "3.12.11",
+    "@apollo/client": "3.13.0",
     "@rollup/plugin-commonjs": "28.0.2",
     "@rollup/plugin-node-resolve": "16.0.0",
     "@rollup/plugin-replace": "6.0.2",
