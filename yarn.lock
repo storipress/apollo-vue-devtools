@@ -2112,7 +2112,7 @@ __metadata:
     autoprefixer: 10.4.20
     graphql: ^16.3.0
     postcss: 8.5.3
-    tailwindcss: 4.0.9
+    tailwindcss: 4.0.10
     vite: 6.2.0
     vue: ^3.2.31
   languageName: unknown
@@ -4045,10 +4045,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.0.9":
-  version: 4.0.9
-  resolution: "tailwindcss@npm:4.0.9"
-  checksum: 0be256536feba52292958bbe7fed990865776707366742ad6d7c5d7868284984ef83f85b3df6faec42b02e106ccf66addea2d14f1e2a75f5263018f7d763840c
+"tailwindcss@npm:4.0.10":
+  version: 4.0.10
+  resolution: "tailwindcss@npm:4.0.10"
+  checksum: f0352ccbfc4fd96bb3835b2f9a0e39923e90807c04ad4886738144238905febc02c1709e94f498e13051b41b97c671ef784450e60f2fb1a35007e1944609310c
   languageName: node
   linkType: hard
 
