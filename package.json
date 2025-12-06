@@ -51,7 +51,7 @@
     "rollup-plugin-vue": "6.0.0",
     "typescript": "5.9.3",
     "vite": "7.2.6",
-    "vitest": "2.1.9",
+    "vitest": "4.0.15",
     "vue": "3.5.25"
   },
   "publishConfig": {
