@@ -823,7 +823,7 @@ __metadata:
     rollup-plugin-ts: 3.4.5
     rollup-plugin-vue: 6.0.0
     typescript: 5.9.3
-    vite: 6.4.1
+    vite: 7.2.6
     vitest: 2.1.9
     vue: 3.5.25
   peerDependencies:
@@ -2108,7 +2108,7 @@ __metadata:
     graphql: ^16.3.0
     postcss: 8.5.6
     tailwindcss: 4.1.17
-    vite: 6.4.1
+    vite: 7.2.6
     vue: ^3.2.31
   languageName: unknown
   linkType: soft
@@ -2131,7 +2131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fdir@npm:^6.2.0, fdir@npm:^6.4.4, fdir@npm:^6.5.0":
+"fdir@npm:^6.2.0, fdir@npm:^6.5.0":
   version: 6.5.0
   resolution: "fdir@npm:6.5.0"
   peerDependencies:
@@ -3390,7 +3390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.6, postcss@npm:^8.4.43, postcss@npm:^8.5.3, postcss@npm:^8.5.6":
+"postcss@npm:8.5.6, postcss@npm:^8.4.43, postcss@npm:^8.5.6":
   version: 8.5.6
   resolution: "postcss@npm:8.5.6"
   dependencies:
@@ -3629,7 +3629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:4.53.3, rollup@npm:^4.20.0, rollup@npm:^4.34.9":
+"rollup@npm:4.53.3, rollup@npm:^4.20.0, rollup@npm:^4.43.0":
   version: 4.53.3
   resolution: "rollup@npm:4.53.3"
   dependencies:
@@ -4034,7 +4034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.13":
+"tinyglobby@npm:^0.2.15":
   version: 0.2.15
   resolution: "tinyglobby@npm:0.2.15"
   dependencies:
@@ -4254,26 +4254,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.4.1":
-  version: 6.4.1
-  resolution: "vite@npm:6.4.1"
+"vite@npm:7.2.6":
+  version: 7.2.6
+  resolution: "vite@npm:7.2.6"
   dependencies:
     esbuild: ^0.25.0
-    fdir: ^6.4.4
+    fdir: ^6.5.0
     fsevents: ~2.3.3
-    picomatch: ^4.0.2
-    postcss: ^8.5.3
-    rollup: ^4.34.9
-    tinyglobby: ^0.2.13
+    picomatch: ^4.0.3
+    postcss: ^8.5.6
+    rollup: ^4.43.0
+    tinyglobby: ^0.2.15
   peerDependencies:
-    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    "@types/node": ^20.19.0 || >=22.12.0
     jiti: ">=1.21.0"
-    less: "*"
+    less: ^4.0.0
     lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
+    sass: ^1.70.0
+    sass-embedded: ^1.70.0
+    stylus: ">=0.54.8"
+    sugarss: ^5.0.0
     terser: ^5.16.0
     tsx: ^4.8.1
     yaml: ^2.4.2
@@ -4305,7 +4305,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 7a939dbd6569ba829a7c21a18f8eca395a3a13cb93ce0fec02e8aa462e127a8daac81d00f684086648d905786056bba1ad931f51d88f06835d3b972bc9fbddda
+  checksum: e552141f9d1fccd26f967db959498114219d422f4fb80e566a0b34e55f0881b0083ba4037773c7fd7f079017c9bab66a4f9ff630cf990d47c457d434ca44b522
   languageName: node
   linkType: hard
 
